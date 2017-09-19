@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AmazonSuite]">
+  <test name="AmazonTest(failed)">
+    <groups>
+      <run>
+        <include name="valid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.amazon.test.loginpage.LoginScript">
+        <methods>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- com.amazon.test.loginpage.LoginScript -->
+    </classes>
+  </test> <!-- AmazonTest(failed) -->
+</suite> <!-- Failed suite [AmazonSuite] -->
